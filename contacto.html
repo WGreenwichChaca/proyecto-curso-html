@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/png" sizes="16x16" rel="icon" href="/icons8-moto-16.png">
+    <title>La influencia de Akira y Blade Runner</title>
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, #000000, #1a1a1a);
+            padding: 0;
+            margin: 0;
+            color: #FFFFFF;
+        }
+
+        header {
+            text-align: center;
+            background-color: #333333;
+            padding: 15px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #222222;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #444444;
+        }
+
+        .active {
+            background-color: #9c09b6df;
+        }
+
+        h1 {
+            background-color: #111111;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        input[type=text],
+        input[type=email],
+        textarea,
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #92a4ff;
+            border-radius: 4px;
+            box-sizing: border-box;
+            background-color: #1a1919; 
+            color: #FFFFFF;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        div.contenedor-formulario {
+            border-radius: 5px;
+            background-color: #444444;
+            padding: 20px;
+        }
+        .footer {
+            background-color: #111111;
+            color: #FFFFFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> "Akira y Blade Runner: Dos Pilares del Cyberpunk que Siguen Influenciando la Cultura Actual"</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="referencias.html">Referencias</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a class="active" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contenedor-formulario">
+        <form>
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe aquí tu nombre" required minlength="3">
+            <label for="apellido">Apellido: </label>
+            <input type="text" id="apellido" name="apellido" placeholder="Escribe aquí tu apellido" required minlength="3">
+            <label for="mail">Email: </label>
+            <input type="email" id="mail" name="mail" placeholder="Escribe aquí tu mail" required>
+            <label for="pais">País: </label>
+            <select name="pais" id="pais">
+                <option value="Peru">Perú</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Chile">Chile</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Espania">España</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Venezuela">Venezuela</option>
+            </select>
+            <label for="comentario">Comentario: </label>
+            <textarea name="comentario" id="comentario" placeholder="Escribe aquí tu comentario"></textarea>
+
+            <label for="motivo">Motivo de contacto: </label>
+            <input type="radio" id="motivo" name="motivo"><i>Soy fan de Akira</i>
+            <input type="radio" id="motivo" name="motivo"><i>Soy fan de Blade Runner</i>
+            <input type="radio" id="motivo" name="motivo"><i>Comerciales</i>
+            <input type="radio" id="motivo" name="motivo"><i>Reclamos</i>
+
+            <input type="submit" value="Enviar">
+            
+        </form>
+    </div>
+        <footer class="footer">
+            <p>Derechos Reservados &copy; 2023</p>
+        </footer>
+</body>
+</html>
