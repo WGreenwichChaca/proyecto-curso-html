@@ -16,7 +16,7 @@ Puedes ver una demostración en vivo de la página en [verla aquí](https://cybe
 ## Estructura del Proyecto 📁
 
 La estructura del proyecto es bastante simple y sigue una organización básica de archivos:
-
+```
 proyecto/
 │
 ├── assets/
@@ -25,7 +25,7 @@ proyecto/
 ├── contacto.html
 ├── index.html
 └── referencias.html
-
+```
 
 ## Uso 🛠️
 
