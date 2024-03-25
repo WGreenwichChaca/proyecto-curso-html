@@ -32,7 +32,7 @@ proyecto/
 Para usar este proyecto, simplemente clona el repositorio y abre el archivo `index.html` en tu navegador web:
 
 ```bash
-git clone <url-del-repositorio>
+git clone https://github.com/WGreenwichChaca/proyecto-curso-html.git
 cd proyecto
 ```
 Contribución 💡
